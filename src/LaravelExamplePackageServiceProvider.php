@@ -2,9 +2,9 @@
 
 namespace Maulvi67\LaravelExamplePackage;
 
+use Maulvi67\LaravelExamplePackage\Commands\LaravelExamplePackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Maulvi67\LaravelExamplePackage\Commands\LaravelExamplePackageCommand;
 
 class LaravelExamplePackageServiceProvider extends PackageServiceProvider
 {
