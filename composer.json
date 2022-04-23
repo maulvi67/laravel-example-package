@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "maulvi67/laravel-example-package",
+    "description": "This is an example package",
     "keywords": [
-        ":vendor_name",
+        "maulvi67",
         "laravel",
-        ":package_slug"
+        "laravel-example-package"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/maulvi67/laravel-example-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Maulvi",
+            "email": "maulvi67@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Maulvi67\\LaravelExamplePackage\\": "src",
+            "Maulvi67\\LaravelExamplePackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Maulvi67\\LaravelExamplePackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Maulvi67\\LaravelExamplePackage\\LaravelExamplePackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelExamplePackage": "Maulvi67\\LaravelExamplePackage\\Facades\\LaravelExamplePackage"
             }
         }
     },
